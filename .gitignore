@@ -1,0 +1,20 @@
+# Exclude the credentials file containing API keys
+credentials.py
+
+# Exclude the file that stores channel stats results
+channel_stats.txt
+
+# Other common Python exclusions
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+VENV/
+.idea/
+.vscode/
+*.swp
+.DS_Store
