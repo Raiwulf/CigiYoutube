@@ -2,7 +2,7 @@
 
 ## Overview
 
-YouTube Channel Stats is a Python application that provides statistics for a specified YouTube channel. It calculates and displays the average views, likes, and comments per video for the channel. The application consists of a Flask backend and a Tkinter GUI for user interaction.
+CigiYoutube is a Python application that provides statistics for a specified YouTube channel. It calculates and displays the average views, likes, and comments per video for the channel. The application consists of a Flask backend and a Tkinter GUI for user interaction.
 
 ## Features
 
