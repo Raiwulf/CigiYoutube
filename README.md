@@ -87,7 +87,7 @@ python gui.py
 
 The results will be saved in \`channel_stats.txt\` as:
 
-\`\`\`
+```
 Channel: [Channel Name]
 Average Views per Video: 12345.67
 Average Likes per Video: 678.90
@@ -95,11 +95,11 @@ Average Comments per Video: 12.34
 
 ---
 
-\`\`\`
+```
 
 ## File Structure
 
-\`\`\`
+```
 youtube-channel-stats/
 │
 ├── app.py # Flask application
@@ -109,7 +109,7 @@ youtube-channel-stats/
 ├── requirements.txt # Required Python packages
 ├── .gitignore # Git ignore file
 └── README.md # This readme file
-\`\`\`
+```
 
 ## License
 
