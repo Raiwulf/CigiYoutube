@@ -25,21 +25,21 @@ CigiYoutube is a Python application that provides statistics for a specified You
 
 Clone this repository to your local machine using the following command:
 
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/youtube-channel-stats.git
 cd youtube-channel-stats
-\`\`\`
+```
 
 ### Step 2: Create and Configure \`credentials.py\`
 
 Create a file named \`credentials.py\` in the root directory of your project and add your YouTube API key:
 
-\`\`\`python
+```python
 
 # credentials.py
 
-API_KEY = 'YOUR_YOUTUBE_API_KEY'
-\`\`\`
+YouTube_Data_API_v3_Key = 'YOUR_YOUTUBE_API_KEY'
+```
 
 Replace \`'YOUR_YOUTUBE_API_KEY'\` with your actual YouTube Data API key. This file is included in the \`.gitignore\` to ensure that sensitive information is not tracked by version control.
 
@@ -47,31 +47,25 @@ Replace \`'YOUR_YOUTUBE_API_KEY'\` with your actual YouTube Data API key. This f
 
 Install the required Python packages using pip:
 
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
-
-If you don't have a \`requirements.txt\` file, you can manually install the packages:
-
-\`\`\`bash
+```bash
 pip install Flask google-api-python-client requests
-\`\`\`
+```
 
 ### Step 4: Start the Flask Server
 
 Run the Flask server by executing the following command in your terminal:
 
-\`\`\`bash
+```bash
 python app.py
-\`\`\`
+```
 
 ### Step 5: Start the Tkinter GUI
 
 In a new terminal window, run the Tkinter GUI application:
 
-\`\`\`bash
+```bash
 python gui.py
-\`\`\`
+```
 
 ### Step 6: Use the Application
 
@@ -86,7 +80,7 @@ python gui.py
 
 ## Example
 
-- **YouTube Channel ID:** \`UCTTZqMWBvLsUYqYwKTdjvkw\`
+- **YouTube Channel ID:** \`XXXXXXXXXXXXXX`
 - **Average Views per Video:** 12345.67
 - **Average Likes per Video:** 678.90
 - **Average Comments per Video:** 12.34
