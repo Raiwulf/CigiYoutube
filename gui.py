@@ -27,7 +27,7 @@ def save_results(data):
     avg_views = data['average_views']
     avg_likes = data['average_likes']
     avg_comments = data['average_comments']
-    with open("channel_stats.txt", "a") as file:
+    with open("channel_stats.txt", "a", encoding="utf-8") as file:
         file.write(f"Channel: {channel_name}\n")
         file.write(f"Average Views per Video: {avg_views}\n")
         file.write(f"Average Likes per Video: {avg_likes}\n")
