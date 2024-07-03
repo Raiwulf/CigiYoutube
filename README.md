@@ -27,7 +27,7 @@ Clone this repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/yourusername/youtube-channel-stats.git
-cd youtube-channel-stats
+cd CigiYoutube
 ```
 
 ### Step 2: Create and Configure \`credentials.py\`
