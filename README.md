@@ -43,6 +43,8 @@ YouTube_Data_API_v3_Key = 'YOUR_YOUTUBE_API_KEY'
 
 Replace \`'YOUR_YOUTUBE_API_KEY'\` with your actual YouTube Data API key. This file is included in the \`.gitignore\` to ensure that sensitive information is not tracked by version control.
 
+[How to get YouTube Data API](https://developers.google.com/youtube/v3/getting-started#:~:text=Visit%20the%20Enabled%20APIs%20page.%20In%20the%20list%20of%20APIs%2C%20make%20sure%20the%20status%20is%20ON%20for%20the%20YouTube%20Data%20API%20v3.)
+
 ### Step 3: Install Required Packages
 
 Install the required Python packages using pip:
